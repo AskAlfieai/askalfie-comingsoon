@@ -3,7 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Lottie from "lottie-react";
 import rocketAnimation from "../lotties/Rocket.json";
-import Logo from "../images/logo.svg";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +16,7 @@ const Home: NextPage = () => {
         <div className="m-12">
           <Image
             className="fixed inset-0 m-4 mx-auto"
-            src={Logo}
+            src={"/images/logo.svg"}
             alt="AskAlfie Logo"
             width={75}
             height={75}
