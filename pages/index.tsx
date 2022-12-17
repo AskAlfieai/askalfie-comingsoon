@@ -15,15 +15,15 @@ const Home: NextPage = () => {
       <main className="grid justify-center w-full px-20 space-y-4 text-center ">
         <div className="m-12">
           <Image
+            src="/images/logo.svg"
             className="fixed inset-0 m-4 mx-auto"
-            src={"/images/logo.svg"}
             alt="AskAlfie Logo"
             width={75}
             height={75}
           />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-6xl font-bold leading-relaxed text-white font-primary">
+          <h1 className="text-2xl font-bold leading-relaxed text-white sm:text-6xl font-primary">
             Next-Gen Letter Writing <br />
             Coming Soon
           </h1>
