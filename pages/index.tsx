@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <main className="grid justify-center w-full px-20 space-y-4 text-center ">
         <div className="m-12">
           <Image
-            src="/images/logo.svg"
+            src="/static/imgs/logo.svg"
             className="fixed inset-0 m-4 mx-auto"
             alt="AskAlfie Logo"
             width={75}
