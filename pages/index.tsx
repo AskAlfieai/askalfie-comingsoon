@@ -24,7 +24,6 @@ const Home: NextPage = () => {
         </div>
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-2xl font-bold leading-relaxed text-white sm:text-6xl font-primary">
-            Next-Gen Letter Writing <br />
             Coming Soon
           </h1>
           <div className="max-w-6xl w-96">
